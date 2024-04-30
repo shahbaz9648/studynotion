@@ -26,8 +26,7 @@ app.use(express.json())
 app.use(cookieParser())
 app.use(
   cors({
-    // origin: "*",
-    origin: "https://studynotion-frontend-kohl.vercel.app",
+    origin: "*",
     credentials: true,
   })
 )
